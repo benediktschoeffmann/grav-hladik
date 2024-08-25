@@ -1,0 +1,14 @@
+enabled: true
+current_preset: purple
+background_color: '#f1f1f1'
+header_background_color: '#ffffff'
+box_background_color: '#ffffff'
+textcolor: '#333333'
+secondary_textcolor: '#333333'
+border_color: '#333333'
+border_focus_color: '#333333'
+sidebar_textcolor: '#333333'
+sidebar_border_color: '#f1f1f1'
+sidebar_border_focus_color: '#333333'
+secondary_sidebar_textcolor: '#333333'
+meta_box_background_color: '#f1f1f1'

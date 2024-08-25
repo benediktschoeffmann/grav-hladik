@@ -1,0 +1,19 @@
+title: 'Frischer Wind in Guten Händen'
+default_lang: de
+author:
+  name: 'Carina Hladik'
+  email: catcat@gmx.at
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog
