@@ -17,8 +17,8 @@ http_x_forwarded:                                # Configuration options for the
   ip: true
 
 languages:
-  supported: []                                  # List of languages supported. eg: [en, fr, de]
-  default_lang:                                  # Default is the first supported language. Must be one of the supported languages
+  supported: ['de']                                  # List of languages supported. eg: [en, fr, de]
+  default_lang: de                                  # Default is the first supported language. Must be one of the supported languages
   include_default_lang: true                     # Include the default lang prefix in all URLs
   include_default_lang_file_extension: true      # If true, include language code for the default language in file extension: default.en.md
   translations: true                             # If false, translation keys are used instead of translated strings
@@ -32,7 +32,7 @@ languages:
 
 home:
   alias: '/home'                                 # Default path for home, ie /
-  hide_in_urls: false                            # Hide the home route in URLs
+  hide_in_urls: true                            # Hide the home route in URLs
 
 pages:
   type: regular                                  # EXPERIMENTAL: Page type: regular or flex
@@ -57,10 +57,10 @@ pages:
     page: true                                   # Enable page level events
     twig: true                                   # Enable Twig level events
   markdown:
-    extra: false                                 # Enable support for Markdown Extra support (GFM by default)
-    auto_line_breaks: false                      # Enable automatic line breaks
-    auto_url_links: false                        # Enable automatic HTML links
-    escape_markup: false                         # Escape markup tags into entities
+    extra: true                                 # Enable support for Markdown Extra support (GFM by default)
+    auto_line_breaks: true                      # Enable automatic line breaks
+    auto_url_links: true                       # Enable automatic HTML links
+    escape_markup: true                         # Escape markup tags into entities
     special_chars:                               # List of special characters to automatically convert to entities
       '>': 'gt'
       '<': 'lt'

@@ -10,6 +10,11 @@ admin:
     children_display_order: default
 content:
     items: '@self.children'
+order:
+    by: date
+    dir: desc
+    limit: 5
+    pagination: true
 ---
 
 <p>## &Uuml;ber mich</p>
